@@ -1,0 +1,23 @@
+.experience-container{
+    display: flex;
+}
+
+.mr30{
+    margin-right: 30px;
+}
+
+h3 {
+    margin: 0;
+}
+
+.explanation{
+
+}
+
+.experience-container img{
+    width:300px;
+    border-radius:3px;
+}
+
+
+
