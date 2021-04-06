@@ -1,0 +1,53 @@
+.destination{
+    max-width: 1000px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.destination img {
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+}
+
+.city{
+    width: 220px;
+    display: flex;
+    margin: 10px;
+}
+
+.place {
+    max-width: 1000px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.place img {
+    width: 220px;
+    height: 220px;
+    border-radius: 10px;
+}
+
+.where{
+    margin: 10px;
+}
+
+.startHost {
+    max-width: 1000px;
+    position: relative;   
+}
+.startHost img {
+    width: 970px;
+    height: 300px;
+    border-radius: 10px;
+}
+
+.hostInfo {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
