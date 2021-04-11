@@ -1,15 +1,122 @@
 body{
+    margin: 0px;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-/*main Section*/
 main {
+    margin: 80px 80px;
     display:flex;
     flex-direction: column;
     align-items :center;
-    
 }
+
+.nearCity {
+    min-height: 250px;
+}
+.destination{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.city{
+    width: 310px;
+    display: flex;
+}
+
+.city img {
+    width: 64px;
+    height: 64px;
+    border-radius: 8px;
+    margin: 8px;
+}
+
+.cityInfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 8px;;
+}
+
+h1 {
+    font-size: 32px;
+    color: #222222;
+}
+
+.title{
+    font-size: 16px;
+    font-weight: 600;
+    color: #222222;
+}
+
+.anywhere{
+    min-height: 510px;
+}
+
+.place {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.place img {
+    width: 370px;
+    height: 370px;
+    border-radius: 10px;
+}
+
+.startHost {
+    min-height: 480px;
+    position: relative;   
+}
+.startHost img {
+    width: 100%;
+    height: 500px;
+    border-radius: 14px;
+}
+
+.hostInfo {
+    position: absolute;
+    top: 80px;
+    left: 80px;
+}
+
+.where {
+    margin: 50px;
+}
+.whereInfo{
+    font-size: 18px;
+    font-weight: 600;
+    color: #222222;
+}
+
+.hostInfo1{
+    font-size: 48px;
+    font-weight: 600;
+    color: #FFFFFF; 
+}
+
+.hostInfo2{
+    font-size: 18px;
+    color: #FFFFFF;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+button{
+    border: 0;
+    outline: 0;
+    height: 48px;
+    width: 168px;
+    border-radius: 8px;
+    margin-top: 20px;
+    font-weight: 600;
+    font-size: 16px;
+}
+
 .experience{
     padding:10px
 }
