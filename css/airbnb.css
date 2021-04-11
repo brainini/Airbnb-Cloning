@@ -120,6 +120,7 @@ footer{
 
 .footer-bar-right{
     display:flex;
+    align-items: center;
 
 }
 .bars{
@@ -131,7 +132,10 @@ footer{
 .icons {
     margin-left: 30px;
 }
-
+.koreanwon {
+    width: 10px;
+    height : 10px;
+}
 .sns {
     width: 10px;
     height: 10px;
