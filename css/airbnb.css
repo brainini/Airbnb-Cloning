@@ -129,3 +129,261 @@ header .message {
     color: white;
     font-size: 20px;
 }
+
+body{
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+main {
+    margin: 80px 80px;
+    width: 100%;
+    display:flex;
+    flex-direction: column;
+    align-items :center;
+}
+
+.nearCity {
+    width: 80%;
+    align-items: stretch;
+    min-height: 250px;
+}
+.destination{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.city{
+    width: 310px;
+    display: flex;
+}
+
+.city img {
+    width: 64px;
+    height: 64px;
+    border-radius: 8px;
+    margin: 8px;
+}
+
+.cityInfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 8px;;
+}
+
+h1 {
+    font-size: 32px;
+    color: #222222;
+}
+
+.title{
+    font-size: 16px;
+    font-weight: 600;
+    color: #222222;
+}
+
+.anywhere{
+    width: 80%;
+    min-height: 510px;
+    align-items: stretch;
+}
+
+.place {
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    justify-content: space-between;
+}
+
+.place img {
+    width: 370px;
+    height: 370px;
+    border-radius: 10px;
+}
+
+.startHost {
+    width: 90%;
+    min-height: 480px;
+    position: relative;   
+}
+.startHost img {
+    width: 100%;
+    height: 500px;
+    border-radius: 14px;
+}
+
+.hostInfo {
+    position: absolute;
+    top: 80px;
+    left: 80px;
+}
+
+.where {
+    margin: 10px;
+}
+.whereInfo{
+    font-size: 18px;
+    font-weight: 600;
+    color: #222222;
+}
+
+.hostInfo1{
+    font-size: 48px;
+    font-weight: 600;
+    color: #FFFFFF; 
+}
+
+.hostInfo2{
+    font-size: 18px;
+    color: #FFFFFF;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+button{
+    border: 0;
+    outline: 0;
+    height: 48px;
+    width: 168px;
+    border-radius: 8px;
+    margin-top: 20px;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.experience{
+    width: 80%;
+    padding:10px
+}
+.experience h3, .experience h6{
+    margin:0;
+}    
+
+.experience span{
+    color:gray;
+    font-size:15px;
+}
+.experience-container{
+    display: flex;
+   
+    justify-content: space-between;
+    padding: 15px 15px 15px 0;
+}
+.contents{
+    margin-right: 10px;
+
+}
+.dog-image {
+    width:250px;
+    height: 250px;
+    border-radius : 5px;
+}
+
+.contents .explanation{
+    font-size: 8px;
+    color:black;
+}
+
+h3 {
+    margin: 0;
+}
+
+.explanation{
+    font-size: 5px;
+
+}
+
+
+/*Footer*/
+footer{
+    width: 80%;
+    margin-top: 15px;
+    background-color: #ebebeb;
+    padding: 20px 20px 10px 20px;
+
+}
+.footer-containter {
+    display:flex;
+    flex-direction: column;
+    max-width: 1200px;  
+}
+.footer-main{
+    display:flex;
+    justify-content:space-between;
+    margin-bottom: 15px;
+}
+.footer-main .col .links{
+    display:flex;
+    flex-direction:column
+}
+.footer-head{
+    color:black;
+    font-size: 10px;
+    
+
+}
+.col{
+    margin-right: 80px;
+}
+.links {
+    text-decoration: none;
+    color: gray;
+    font-size:10px;
+    margin-bottom:8px;
+}
+.linktop {
+    margin-top: 8px;
+}
+
+
+.footer-bar{
+    border-top: 1px solid gray;
+    display:flex;
+    font-size:10px;
+    justify-content: space-between;
+}
+.footer-bar a{
+    text-decoration: none;
+    color:gray;
+}
+.footer-bar-left{
+    display:flex;
+    align-items: center;
+}
+
+.footer-bar-left span{
+    color:gray
+}
+.bulletin{
+    background-color:gray;
+    width: 3px;
+    height: 3px;
+    margin: 0px 5px 0px 10px;
+}
+
+.footer-bar-right{
+    display:flex;
+    align-items: center;
+
+}
+.bars{
+    padding-top:10px;
+}
+.won{
+    margin-left: 15px;
+}
+.icons {
+    margin-left: 30px;
+}
+.koreanwon {
+    width: 10px;
+    height : 10px;
+}
+.sns {
+    width: 10px;
+    height: 10px;
+}
