@@ -4,19 +4,13 @@
 ⭐️ 태구, 세원, 유진이 함께 모여 작업했습니다!
 
 ## 각자의 역할✏
-> 1. 태구_Header  
-```
-캡쳐 이미지
-```
+> 태구_Header & 세원_Main & 유진_Footer     
 
-> 2. 세원_Main  
-```
-캡쳐 이미지
-```
+HEADER
+![image](https://user-images.githubusercontent.com/52378625/126335997-98776b72-77a1-4ccc-9bb4-a4169db37c07.png)
 
-> 3. 유진_Footer  
-```
-캡쳐 이미지
-```  
-  
-담당 운영진 이름, 팀원 이름, 맡은 기능, 구현 완료 후 cloning page 캡쳐 이미지 등으로 구성
+MAIN
+![image](https://user-images.githubusercontent.com/52378625/126335846-64f240c5-d8e5-45d6-9da6-0a94643edf86.png)
+
+FOOTER
+![image](https://user-images.githubusercontent.com/52378625/126336088-9eed817c-08a5-4d6d-8721-ae72ba9babb4.png)
